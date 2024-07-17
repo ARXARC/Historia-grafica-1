@@ -1,8 +1,7 @@
 import pygame
 import sys
 pygame.init()
-WIDTH, HEIGHT = 1082, 980
-screen = pygame.display.set_mode((WIDTH, HEIGHT))
+screen = pygame.display.set_mode((1082, 980))
 opt1 = pygame.image.load("1.png")
 opt2 = pygame.image.load("2.png")
 opt3 = pygame.image.load("3.png")
