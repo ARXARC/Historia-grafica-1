@@ -51,5 +51,6 @@ while True:
                     current_image = end2 
                 elif rst >= 10:
                     current_image = end3
+    screen.fill((0, 0, 0))
     screen.blit(current_image, (0, 0))  
     pygame.display.flip()
