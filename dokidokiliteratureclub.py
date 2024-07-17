@@ -12,8 +12,8 @@ end2 = pygame.image.load("end2.png")
 end3 = pygame.image.load("end3.png")
 opcion1 = 0
 opcion2 = 0
-current_image = opt1 
 rst= 0
+current_image = opt1 
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -51,6 +51,5 @@ while True:
                     current_image = end2 
                 elif rst >= 10:
                     current_image = end3
-    screen.fill((0, 0, 0))  
     screen.blit(current_image, (0, 0))  
     pygame.display.flip()
